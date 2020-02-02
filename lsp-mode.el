@@ -633,7 +633,8 @@ Changes take effect only when a new session is started."
                                         (ess-r-mode . "r")
                                         (crystal-mode . "crystal")
                                         (nim-mode . "nim")
-                                        (dhall-mode . "dhall"))
+                                        (dhall-mode . "dhall")
+                                        (gdscript-mode . "gdscript"))
   "Language id configuration.")
 
 (defvar lsp--last-active-workspaces nil
