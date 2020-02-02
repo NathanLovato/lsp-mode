@@ -33,7 +33,7 @@
 (defcustom lsp-gdscript-port 6008
   "Port to connect server to"
   :type 'integer
-  :group lsp-gdscript)
+  :group 'lsp-gdscript)
 
 (defun lsp-gdscript-tcp-connect-to-port ()
   (list
