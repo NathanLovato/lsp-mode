@@ -23,6 +23,7 @@
 ;; lsp-gdscript client
 
 ;;; Code:
+(require 'lsp-mode)
 
 (defgroup lsp-gdscript nil
   "LSP support for GDScript, using godot's language server."
