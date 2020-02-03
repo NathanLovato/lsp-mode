@@ -1,4 +1,4 @@
-;;; lsp-mode.el --- LSP mode                              -*- lexical-binding: t; -*-
+;; lsp-mode.el --- LSP mode                              -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2019  Vibhav Pant, Ivan Yonchovski
 
@@ -634,7 +634,8 @@ Changes take effect only when a new session is started."
                                         (crystal-mode . "crystal")
                                         (nim-mode . "nim")
                                         (dhall-mode . "dhall")
-                                        (gdscript-mode . "gdscript"))
+                                        (gdscript-mode . "gdscript")
+                                        (cmake-mode . "cmake"))
   "Language id configuration.")
 
 (defvar lsp--last-active-workspaces nil
