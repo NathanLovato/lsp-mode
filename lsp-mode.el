@@ -1,4 +1,4 @@
-;; lsp-mode.el --- LSP mode                              -*- lexical-binding: t; -*-
+;;; lsp-mode.el --- LSP mode                              -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2019  Vibhav Pant, Ivan Yonchovski
 
